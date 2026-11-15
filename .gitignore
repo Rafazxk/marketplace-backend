@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+
+# Logs de execução e erro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variáveis de ambiente e segredos
+.env
+.env.local
+
+# Arquivos de build e compilação
+dist/
+build/
+
+# Dados locais de containers (volumes persistentes do Docker se houver)
+postgres_data/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
